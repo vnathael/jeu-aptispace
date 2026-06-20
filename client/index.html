@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SURGE.io - Jeu Multijoueur Temps Réel</title>
+    <!-- Google Fonts: Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="app-container">
+      <!-- Game Canvas -->
+      <canvas id="game-canvas"></canvas>
+
+      <!-- UI Overlay -->
+      <div id="ui-overlay" class="ui-overlay">
+        <!-- Main Menu -->
+        <div id="main-menu-container" class="ui-screen"></div>
+
+        <!-- HUD: Score, Charge, Timer -->
+        <div id="hud-container" class="hud-container hidden"></div>
+
+        <!-- Leaderboard -->
+        <div id="leaderboard-container" class="leaderboard-container hidden"></div>
+
+        <!-- Round End Modal -->
+        <div id="round-end-container" class="modal-backdrop hidden"></div>
+
+        <!-- Connection Status Badge -->
+        <div id="connection-status-container" class="connection-status-container"></div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+export declare const GAME_CONSTANTS: {
+    WORLD_WIDTH: number;
+    WORLD_HEIGHT: number;
+    TICK_RATE: number;
+    TICK_INTERVAL: number;
+    PLAYER_RADIUS: number;
+    PLAYER_SPEED: number;
+    MAX_CHARGE: number;
+    CHARGE_CELL_VALUE: number;
+    SCORE_PER_CELL: number;
+    DASH_SPEED: number;
+    DASH_DURATION: number;
+    DASH_STUN_DURATION: number;
+    STUN_SPEED_MULTIPLIER: number;
+    DASH_CHARGE_LOSS_PERCENT: number;
+    MAX_ENERGY_CELLS: number;
+    ENERGY_CELL_RADIUS: number;
+    OVERCHARGE_SPAWN_INTERVAL: number;
+    OVERCHARGE_DURATION: number;
+    OVERCHARGE_RADIUS: number;
+    OVERCHARGE_DRAIN_RATE: number;
+    SHIELD_SPAWN_INTERVAL: number;
+    SHIELD_DURATION: number;
+    SHIELD_RADIUS: number;
+    SHIELD_MAX_ACTIVE: number;
+    MATCH_DURATION: number;
+    POST_MATCH_COOLDOWN: number;
+};
